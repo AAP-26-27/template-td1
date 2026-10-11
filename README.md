@@ -19,7 +19,7 @@ On rappelle les principes qui vous permettront de monter en compétences :
 
 ## Objectifs
 
-À l'issue de ce TP, vous devez savoir :
+À l'issue de ce TD, vous devez savoir :
 
 - Utiliser le vocabulaire associé à l'exécution des programmes et à leurs entrées-sorties.
 - Mettre en place les bonnes pratiques associées. 
@@ -29,11 +29,11 @@ On rappelle les principes qui vous permettront de monter en compétences :
 - Récupérer les arguments fournis en ligne de commande à un programme.
 - Ouvrir un fichier pour le lire ou l'écrire.
 - Utiliser la structure de contrôle match/case. 
-- Exploiter les codes ASCII des caractères. 
-- Récupérer des fichiers depuis un dépôt github à l'aide de la commande shell `wget`. 
-- Lire un fichier `csv` pour en parcourir le contenu.  
-- Produire un diagramme à l'aide de `pyplot`. 
-- Vous répartir des tâches de développement en binôme en utilisant des *fixtures* 
+- Exploiter les codes ASCII des caractères.
+- Exécuter une commande shell depuis un programme python.
+- Utiliser les types `list` et `dict` du langage python.
+- Utiliser les *tuples* du langage python et le *sequence unpacking*.
+- Produire du code robuste et modulaire.
 
 
 ---
