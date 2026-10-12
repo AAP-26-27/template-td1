@@ -142,7 +142,7 @@ sys.stderr.write("Une erreur est survenue\n")
 
 > **Consigne pour les enseignants :**
 > - Vérifier que le code de l'étudiant est bien présent dans son dépôt Github
-> - Demander à l'étudiant de tester son programme sur le fichier `extraits/tests_comptage` et de comparer sa sortie avec celle de la commande `wc`. 
+> - Demander à l'étudiant de tester son programme sur le fichier `extraits/test_comptage` et de comparer sa sortie avec celle de la commande `wc`. 
 
 ---
 
