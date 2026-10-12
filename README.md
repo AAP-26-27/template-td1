@@ -161,7 +161,7 @@ commande_inexistante
 echo $?
 ```
 
-En python, on peut quitter un programme en renvoyant un code de retour à l'aide de la fonction `sys.exit("message")`. 
+En python, on peut quitter un programme en renvoyant un code de retour à l'aide de la fonction `sys.exit(codeDeRetour)`. 
 
 Les *arguments* fournis *en ligne de commande* à un programme python sont stockés dans la liste `sys.argv`. 
 - 📌 **Argument en ligne de commande** : valeur saisie après le nom du programme lors de son lancement, afin de lui transmettre une information ou de modifier son comportement.
