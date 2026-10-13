@@ -302,7 +302,7 @@ import subprocess
 
 resultat = subprocess.run(
     ["wc", "-c", "-w"],
-    input("une chaine de 5 mots et 38 caractères")
+    input="une chaine de 5 mots et 38 caractères",
     capture_output=True,
     text=True
 )
@@ -312,7 +312,7 @@ print(resultat.stderr)
 print(resultat.returncode)
 ```
 
-Le premier élément de la liste correspond à la commande à exécuter (`ls`) et les éléments suivants à ses arguments (`-l`). Le paramètre `capture_output=True` permet de récupérer les sorties standard et d'erreur du processus fils, tandis que `text=True` demande à Python de les représenter sous forme de chaînes de caractères et non pas d'octets. Le paramètre `input` permet de fournir une chaîne de caractères dans l'entrée standard du processus. 
+Le premier élément de la liste correspond à la commande à exécuter (`wc`) et les éléments suivants à ses arguments (`-c`,`-w`). Le paramètre `capture_output=True` permet de récupérer les sorties standard et d'erreur du processus fils, tandis que `text=True` demande à Python de les représenter sous forme de chaînes de caractères et non pas d'octets. Le paramètre `input` permet de fournir une chaîne de caractères dans l'entrée standard du processus. 
 
 8. [BONUS] Développer un programme python `cesar.py` exploitant cette solution pour réaliser successivement les opérations de chiffrement puis déchiffrement du texte fourni sur son entrée standard, en utilisant le chiffrement de César. 
 
