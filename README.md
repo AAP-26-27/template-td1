@@ -302,7 +302,7 @@ import subprocess
 
 resultat = subprocess.run(
     ["wc", "-c", "-w"],
-    input="une chaine de 5 mots et 38 caractères",
+    input="une chaine de 8 mots et 38 caractères",
     capture_output=True,
     text=True
 )
