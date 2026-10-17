@@ -17,6 +17,6 @@
 
 
 if __name__ == "__main__":
-    dec = traiterArguments()
-    s1 = lireStdin()
+    dec = traiter_arguments()
+    s1 = lire_stdin()
     print(chiffrer(s1,dec), end="")
