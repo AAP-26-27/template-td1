@@ -31,7 +31,7 @@ On rappelle les principes qui vous permettront de monter en compétences :
 - Utiliser la structure de contrôle match/case. 
 - Exploiter les codes ASCII des caractères.
 - Exécuter une commande shell depuis un programme python.
-- Utiliser les types `list` et `dict` du langage python.
+- Utiliser les types `str`, `list` et `dict` du langage python.
 - Utiliser les *tuples* du langage python et le *sequence unpacking*.
 - Produire du code robuste et modulaire.
 
@@ -343,7 +343,7 @@ ACCENTS_MAJUSCULES = ["À", "Â", "Ä","É", "È", "Ê", "Ë","Î", "Ï","Ô", "
 indice = ACCENTS_MINUSCULES.index("é")
 print(ACCENTS_MAJUSCULES[indice])
 ```
-- Alternativement, vous pouvez utiliser deux chaînes de caractères déclarées dans un *tuple* pour traiter les accents. Il s'agit d'un type immuable représentant un ensemble de valaurs dont la structure ne doit pas être modifiée. 
+- Alternativement, vous pouvez utiliser deux chaînes de caractères déclarées dans un *tuple* pour traiter les accents. Il s'agit d'un type immuable représentant un ensemble de valeurs dont la structure ne doit pas être modifiée. 
 
 ```python
 ACCENTS = ("àâäéèêëîïôöùûüÿç","ÀÂÄÉÈÊËÎÏÔÖÙÛÜŸÇ")
