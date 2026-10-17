@@ -255,7 +255,7 @@ Nous souhaitons étudier la fréquence d'apparition des caractères alphabétiqu
 - Le programme doit afficher en plus des informations précédentes : 
     - Le nombre total de caractères alphabétiques rencontrés. 
     - Un tableau présentant le nombre d'occurrences de chaque caractère alphabétique, ainsi que sa fréquence (rapport entre le nombre d'occurrences d'un caractère alphabétique sur le nombre total de caractères alphabétiques).
-- **Indications** : Créer et initialiser à zéro, une liste de 29 composantes entières, qui contiendra les occurrences des caractères alphabétiques mais également le nombre total de mots, lignes, caractères et caractères alphabétiques rencontrés.
+- **Indications** : Créer et initialiser à zéro, une liste de 30 composantes entières, qui contiendra les occurrences des caractères alphabétiques mais également le nombre total de mots, lignes, caractères et caractères alphabétiques rencontrés.
 - Considérer les caractères accentués de manière spéficique à l'aide d'un `match/case`; 
 - Tester votre programme sur les deux extraits du roman de Georges Perec (1936-1982) intitulé "La Disparition" paru en 1969. Que remarquez-vous en examinant les résultats ?
 - Tester votre programme sur l'extrait d'un autre roman de Georges Perec, intitulé "Les Revenentes" paru en 1972. 
